@@ -40,11 +40,11 @@ gpui-component-assets = { path = "crates/assets", version = "0.5.1" }
 gpui-fps = { path = "crates/fps", version = "0.1.0" }
 story = { path = "crates/story" }
 
-gpui = { version = "0.2.2", git = "https://github.com/zeronsh/zui", rev = "18a89af04cfe079d55275b111ac349d5640d9cda" }
-gpui_platform = { git = "https://github.com/zeronsh/zui", rev = "18a89af04cfe079d55275b111ac349d5640d9cda", features = ["font-kit", "x11", "wayland", "runtime_shaders"] }
-gpui_web = { git = "https://github.com/zeronsh/zui", rev = "18a89af04cfe079d55275b111ac349d5640d9cda" }
-gpui_macros = { version = "0.1.0", git = "https://github.com/zeronsh/zui", rev = "18a89af04cfe079d55275b111ac349d5640d9cda" }
-reqwest_client = { git = "https://github.com/zeronsh/zui", rev = "18a89af04cfe079d55275b111ac349d5640d9cda" }
+gpui = { version = "0.2.2", git = "https://github.com/zeronsh/zui", rev = "667d0aaf9531d2d1b2d0674a5e55f977df1b09f6" }
+gpui_platform = { git = "https://github.com/zeronsh/zui", rev = "667d0aaf9531d2d1b2d0674a5e55f977df1b09f6", features = ["font-kit", "x11", "wayland", "runtime_shaders"] }
+gpui_web = { git = "https://github.com/zeronsh/zui", rev = "667d0aaf9531d2d1b2d0674a5e55f977df1b09f6" }
+gpui_macros = { version = "0.1.0", git = "https://github.com/zeronsh/zui", rev = "667d0aaf9531d2d1b2d0674a5e55f977df1b09f6" }
+reqwest_client = { git = "https://github.com/zeronsh/zui", rev = "667d0aaf9531d2d1b2d0674a5e55f977df1b09f6" }
 sum-tree = { version = "0.2.0", package = "zed-sum-tree" }
 # reqwest = { version = "0.12.15-zed", package = "zed-reqwest" }
 reqwest = { git = "https://github.com/zed-industries/reqwest.git", rev = "c15662463bda39148ba154100dd44d3fba5873a4", default-features = false, features = [
